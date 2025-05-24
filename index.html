@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Achado Lovers 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ff69b4, #ffd700);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 40px 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      max-width: 500px;
+      width: 90%;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+      text-shadow: 1px 1px 6px #c2185b;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 15px 35px;
+      background-color: #e91e63;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+      position: relative;
+      overflow: hidden;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -75%;
+      width: 50%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      transform: skewX(-20deg);
+      animation: brilho 2.5s infinite;
+    }
+
+    @keyframes brilho {
+      0% { left: -75%; }
+      100% { left: 125%; }
+    }
+
+    a.button:hover {
+      background-color: #d81b60;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Achado Lovers 💖</h1>
+    <p>Entre no nosso grupo exclusivo do WhatsApp e descubra os achadinhos mais amados da Shopee!</p>
+    <a class="button" href="https://chat.whatsapp.com/JCelgGdWBqVHilyYnh6okd" target="_blank">
+      ✨ Entrar no Grupo ✨
+    </a>
+  </div>
+</body>
+</html>
