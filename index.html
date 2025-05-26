@@ -40,10 +40,9 @@
       text-shadow: 1px 1px 4px #000;
     }
 
-    a.button {
+    .button {
       display: inline-block;
       padding: 15px 35px;
-      background-color: #e91e63;
       color: white;
       text-decoration: none;
       font-size: 1.2em;
@@ -53,9 +52,18 @@
       overflow: hidden;
       font-weight: bold;
       transition: background-color 0.3s ease;
+      margin: 10px 0;
     }
 
-    a.button::before {
+    .whatsapp-btn {
+      background-color: #e91e63;
+    }
+
+    .shopee-btn {
+      background-color: #ff5722;
+    }
+
+    .button::before {
       content: '';
       position: absolute;
       top: 0;
@@ -72,8 +80,12 @@
       100% { left: 125%; }
     }
 
-    a.button:hover {
+    .whatsapp-btn:hover {
       background-color: #d81b60;
+    }
+
+    .shopee-btn:hover {
+      background-color: #e64a19;
     }
   </style>
 </head>
@@ -81,8 +93,12 @@
   <div class="container">
     <h1>💖 Achado Lovers 💖</h1>
     <p>Entre no nosso grupo exclusivo do WhatsApp e descubra os achadinhos mais amados da Shopee!</p>
-    <a class="button" href="https://chat.whatsapp.com/JCelgGdWBqVHilyYnh6okd" target="_blank">
+    <a class="button whatsapp-btn" href="https://chat.whatsapp.com/JCelgGdWBqVHilyYnh6okd" target="_blank">
       ✨ Entrar no Grupo ✨
+    </a>
+    <br>
+    <a class="button shopee-btn" href="https://br.shp.ee/eacae1u?smtt=0.0.9" target="_blank">
+      🛍️ Visite nossa loja na Shopee 🛍️
     </a>
   </div>
 </body>
